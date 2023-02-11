@@ -1,38 +1,80 @@
-.App {
+.blog__title {
+  background-color: #ff84ca;
+  padding: 30px 50px;
   text-align: center;
+  border-bottom: 1px solid #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.blog__container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  justify-content: space-between;
+  margin: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.post_title_container {
+  margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog__title h1 {
+  text-transform: uppercase;
+  font-size: 86px;
+  color: #ffff;
+  font-weight: 900;
+  text-shadow: 10px 10px #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  -webkit-text-decoration: solid;
+  text-decoration: solid;
+  margin-bottom: 0;
+}
+.post-card__thumbnail {
+  min-width: 150px;
+  max-width: 150px;
+  border: 1px solid #000;
+  box-shadow: 10px 10px #000;
+}
+.post-card__title {
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: Archivo, sans-serif;
+}
+
+.para {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: #2a2a2a;
+}
+
+.button {
+  border: 1px solid #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Archivo;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.button--small {
+  padding: 12px 22px;
+  font-size: 12px;
+}
+.button--yellow {
+  background-color: #db523d;
 }

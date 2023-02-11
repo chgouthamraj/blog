@@ -1,0 +1,38 @@
+.blog-post__title h1 {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.blog-post__title {
+  background-color: #fbe20c;
+  padding: 10px 50px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+.blog-sub__title {
+  font-size: 12px;
+}
+h2 {
+  font-family: Archivo, sans-serif;
+}
+.paraData {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #2a2a2a;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+
+.blog-post__section {
+  padding-top: 2rem;
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+.blogImage {
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+}
